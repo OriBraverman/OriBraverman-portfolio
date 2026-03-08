@@ -2,7 +2,7 @@ import { useState, lazy, Suspense } from 'react'
 import ProjectFilter from './ProjectFilter'
 import projectsData from '../data/projects.json'
 
-interface Project {
+export interface Project {
   id: number
   name: string
   description: string

@@ -2,8 +2,10 @@ import { describe, it, expect } from 'vitest'
 import { render, screen, fireEvent } from '@testing-library/react'
 import '@testing-library/jest-dom'
 import ProjectFilter from '../components/ProjectFilter'
-import { categories, filterProjects } from '../components/ProjectsGallery'
-import projectsData from '../data/projects.json'
+import { categories, filterProjects, Project } from '../components/ProjectsGallery'
+import projectsDataRaw from '../data/projects.json'
+
+const projectsData = projectsDataRaw as Project[]
 
 describe('filterProjects', () => {
   it('returns all projects when filter is "All"', () => {
@@ -13,25 +15,25 @@ describe('filterProjects', () => {
 
   it('returns only Web projects when filter is "Web"', () => {
     const result = filterProjects(projectsData, 'Web')
-    expect(result.every((p) => p.category === 'Web')).toBe(true)
+    expect(result.every((p) => p.categories.includes('Web'))).toBe(true)
     expect(result.length).toBeGreaterThan(0)
   })
 
   it('returns only Games projects when filter is "Games"', () => {
     const result = filterProjects(projectsData, 'Games')
-    expect(result.every((p) => p.category === 'Games')).toBe(true)
+    expect(result.every((p) => p.categories.includes('Games'))).toBe(true)
     expect(result.length).toBeGreaterThan(0)
   })
 
   it('returns only ML projects when filter is "ML"', () => {
     const result = filterProjects(projectsData, 'ML')
-    expect(result.every((p) => p.category === 'ML')).toBe(true)
+    expect(result.every((p) => p.categories.includes('ML'))).toBe(true)
     expect(result.length).toBeGreaterThan(0)
   })
 
   it('returns only Systems projects when filter is "Systems"', () => {
     const result = filterProjects(projectsData, 'Systems')
-    expect(result.every((p) => p.category === 'Systems')).toBe(true)
+    expect(result.every((p) => p.categories.includes('Systems'))).toBe(true)
     expect(result.length).toBeGreaterThan(0)
   })
 
