@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "Salt & Pepper",
+    "description": "A strategic 2-player web board game featuring local play and peer-to-peer online multiplayer via PeerJS. Built with vanilla JavaScript, HTML, and CSS.",
+    "technologies": ["JavaScript", "HTML", "CSS", "PeerJS"],
+    "category": "Web",
+    "github": "https://github.com/OriBraverman/Salt-And-Peper",
+    "live": "https://oribraverman.github.io/Salt-And-Peper/",
+    "image": "https://images.unsplash.com/photo-1611996575749-79a3a250f948?w=600&h=400&fit=crop",
+    "stars": 1
+  },
+  {
+    "id": 2,
+    "name": "HTTP Web Server",
+    "description": "A multi-threaded HTTP/1.1 web server in C++ using Winsock, supporting CRUD operations, static file serving, multi-language content, and proper connection management.",
+    "technologies": ["C++", "Winsock", "HTTP/1.1", "Networking"],
+    "category": "Systems",
+    "github": "https://github.com/OriBraverman/HTTP-Web-Server",
+    "live": null,
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop",
+    "stars": 0
+  },
+  {
+    "id": 3,
+    "name": "Pacman Game",
+    "description": "C++ Pacman game with advanced AI ghost strategies using BFS algorithms, save/load functionality, complete gameplay recording system, and multi-level support.",
+    "technologies": ["C++", "AI", "BFS", "OOP"],
+    "category": "Games",
+    "github": "https://github.com/OriBraverman/PacmanGame",
+    "live": null,
+    "image": "https://images.unsplash.com/photo-1579309401389-a2476dddf3d4?w=600&h=400&fit=crop",
+    "stars": 0
+  },
+  {
+    "id": 4,
+    "name": "Arduino Motion Controller",
+    "description": "Arduino Icy Tower Motion Controller — a wearable Arduino-based transmitter detects head tilts and jumps, sending wireless commands to a receiver that emulates keyboard inputs for immersive retro gaming.",
+    "technologies": ["C++", "Arduino", "RF", "MMA8452Q"],
+    "category": "Hardware",
+    "github": "https://github.com/OriBraverman/Arduino-Project",
+    "live": null,
+    "image": "https://images.unsplash.com/photo-1553406830-ef2513450d76?w=600&h=400&fit=crop",
+    "stars": 2
+  },
+  {
+    "id": 5,
+    "name": "Prediction Simulation Platform",
+    "description": "A meta-simulation system for defining and executing simulations to forecast societal impacts of proposed laws or policy changes. Built as a Java course project at The Academic College of Tel-Aviv Yaffo.",
+    "technologies": ["Java", "JavaFX", "Simulation", "OOP"],
+    "category": "Web",
+    "github": "https://github.com/OriBraverman/Prediction-Project",
+    "live": null,
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+    "stars": 0
+  },
+  {
+    "id": 6,
+    "name": "Deep Learning for NLP",
+    "description": "Project implementations for the Deep Learning Methods for Texts and Sequences course, covering foundational deep learning methods for textual and sequential data with hands-on implementations.",
+    "technologies": ["Python", "PyTorch", "NLP", "Deep Learning"],
+    "category": "ML",
+    "github": "https://github.com/OriBraverman/Deep-learning-methods-for-texts-and-sequences",
+    "live": null,
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop",
+    "stars": 0
+  },
+  {
+    "id": 7,
+    "name": "Chess Engine",
+    "description": "A chess engine project implemented in C, featuring complete game logic, move validation, and board state management with a console-based interface.",
+    "technologies": ["C", "Algorithms", "Data Structures"],
+    "category": "Games",
+    "github": "https://github.com/OriBraverman/Chess-Project",
+    "live": null,
+    "image": "https://images.unsplash.com/photo-1528819622765-d6bcf132f793?w=600&h=400&fit=crop",
+    "stars": 0
+  },
+  {
+    "id": 8,
+    "name": "DeepRNA Binding",
+    "description": "Predicting RNA-binding intensities for RNA Binding Proteins using deep learning models on high-throughput RNA sequence data (HTR-SELEX), optimizing with Pearson correlation.",
+    "technologies": ["Python", "Deep Learning", "Bioinformatics"],
+    "category": "ML",
+    "github": "https://github.com/OriBraverman/DeepRNABinding",
+    "live": null,
+    "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=600&h=400&fit=crop",
+    "stars": 0
+  },
+  {
+    "id": 9,
+    "name": "MST Algorithms",
+    "description": "Implementation of Minimum Spanning Tree algorithms including analysis, comparison, and visualization of different MST strategies on various graph types.",
+    "technologies": ["C++", "Graph Theory", "Algorithms"],
+    "category": "Systems",
+    "github": "https://github.com/OriBraverman/MST-Project",
+    "live": null,
+    "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600&h=400&fit=crop",
+    "stars": 0
+  }
+]
