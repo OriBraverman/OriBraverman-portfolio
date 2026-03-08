@@ -42,14 +42,29 @@ export default function Navbar() {
               </a>
             </li>
           ))}
-          <li>
+          <li className="flex items-center gap-3">
+            <a
+              href="CV_Ori_Braverman.pdf"
+              download="CV_Ori_Braverman.pdf"
+              className="text-sm px-4 py-2 rounded-lg bg-white/[0.06] hover:bg-white/[0.12] text-white border border-white/[0.08] transition-all duration-200"
+            >
+              CV
+            </a>
             <a
               href="https://github.com/OriBraverman"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm px-4 py-2 rounded-lg bg-white/[0.06] hover:bg-white/[0.12] text-white transition-all duration-200"
+              className="text-sm px-4 py-2 rounded-lg bg-white/[0.06] hover:bg-white/[0.12] text-white border border-white/[0.08] transition-all duration-200"
             >
               GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ori-braverman/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm px-4 py-2 rounded-lg bg-white/[0.06] hover:bg-white/[0.12] text-white border border-white/[0.08] transition-all duration-200"
+            >
+              LinkedIn
             </a>
           </li>
         </ul>
@@ -85,6 +100,34 @@ export default function Navbar() {
                 </a>
               </li>
             ))}
+            <li className="pt-2 flex items-center gap-3">
+              <a
+                href="CV_Ori_Braverman.pdf"
+                download="CV_Ori_Braverman.pdf"
+                onClick={() => setMobileOpen(false)}
+                className="flex-1 text-center text-sm px-4 py-2 rounded-lg bg-white/[0.06] hover:bg-white/[0.12] text-white border border-white/[0.08] transition-all duration-200"
+              >
+                CV
+              </a>
+              <a
+                href="https://github.com/OriBraverman"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setMobileOpen(false)}
+                className="flex-1 text-center text-sm px-4 py-2 rounded-lg bg-white/[0.06] hover:bg-white/[0.12] text-white border border-white/[0.08] transition-all duration-200"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ori-braverman/"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setMobileOpen(false)}
+                className="flex-1 text-center text-sm px-4 py-2 rounded-lg bg-white/[0.06] hover:bg-white/[0.12] text-white border border-white/[0.08] transition-all duration-200"
+              >
+                LinkedIn
+              </a>
+            </li>
           </ul>
         </div>
       )}

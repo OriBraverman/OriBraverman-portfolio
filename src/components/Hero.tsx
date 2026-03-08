@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden py-20 sm:py-32">
       {/* Background gradient orbs */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-40 -right-40 w-[500px] h-[500px] bg-indigo-500/10 rounded-full blur-[120px]" />
@@ -23,12 +23,19 @@ export default function Hero() {
             Passionate about algorithms, deep learning, and clean code.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-20">
             <a
               href="#projects"
               className="px-8 py-3.5 rounded-xl bg-indigo-500 hover:bg-indigo-400 text-white font-semibold transition-all duration-200 shadow-lg shadow-indigo-500/25 hover:shadow-indigo-500/40"
             >
               View Projects
+            </a>
+            <a
+              href="CV_Ori_Braverman.pdf"
+              download="CV_Ori_Braverman.pdf"
+              className="px-8 py-3.5 rounded-xl bg-white/[0.06] hover:bg-white/[0.12] text-white font-semibold transition-all duration-200 border border-white/[0.08]"
+            >
+              Download CV
             </a>
             <a
               href="https://github.com/OriBraverman"
@@ -38,11 +45,19 @@ export default function Hero() {
             >
               GitHub Profile
             </a>
+            <a
+              href="https://www.linkedin.com/in/ori-braverman/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3.5 rounded-xl bg-white/[0.06] hover:bg-white/[0.12] text-white font-semibold transition-all duration-200 border border-white/[0.08]"
+            >
+              LinkedIn Profile
+            </a>
           </div>
         </div>
 
         {/* Scroll indicator */}
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
+        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 animate-bounce">
           <svg className="w-6 h-6 text-neutral-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
           </svg>

@@ -7,7 +7,7 @@ interface Project {
   name: string
   description: string
   technologies: string[]
-  category: string
+  categories: string[]
   github: string
   live: string | null
   image: string
@@ -18,11 +18,11 @@ const LazyImage = lazy(() => import('./LazyImage'))
 
 const projects: Project[] = projectsData
 
-export const categories = ['All', ...Array.from(new Set(projects.map((p) => p.category)))]
+export const categories = ['All', ...Array.from(new Set(projects.flatMap((p) => p.categories)))]
 
 export function filterProjects(projects: Project[], category: string): Project[] {
   if (category === 'All') return projects
-  return projects.filter((p) => p.category === category)
+  return projects.filter((p) => p.categories.includes(category))
 }
 
 export default function ProjectsGallery() {

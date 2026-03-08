@@ -1,24 +1,24 @@
 const testimonials = [
   {
     quote:
-      "Ori demonstrates exceptional problem-solving ability and a rare talent for writing clean, efficient code. His work on systems-level projects is truly impressive.",
-    name: 'Faculty Advisor',
-    role: 'Academic College of Tel-Aviv Yaffo',
-    avatar: '👨‍🏫',
+      "Ori distinguished himself as an outstanding student in my Computational Complexity course. Complexity is widely regarded as one of the most rigorous and intellectually demanding subjects in the undergraduate curriculum, yet Ori consistently demonstrated the highest academic standards. He is a serious, deep-thinking, and highly dedicated individual. I am confident he will achieve great success in his advanced studies, and I recommend him with the highest praise.",
+    name: "Dr. Omer Berkman",
+    role: "Senior Lecturer, Academic College of Tel-Aviv Yaffo",
+    avatar: "👨‍🏫",
   },
   {
     quote:
-      "Working with Ori on the Prediction Platform was a great experience. His ability to architect complex Java systems and lead the development process stood out.",
-    name: 'Project Collaborator',
-    role: 'Software Engineering Peer',
-    avatar: '👩‍💻',
+      "Ori demonstrated a remarkable ability to master complex software development concepts in a highly demanding environment. He has a sharp analytical mind, consistently identifying edge cases and system design flaws that others miss. His deep technical understanding, combined with a strong drive for independent investigation, makes him highly capable of tackling the most challenging engineering tasks.",
+    name: "Aviad Cohen",
+    role: "Lecturer of Java-Based Software Development, Academic College of Tel-Aviv Yaffo",
+    avatar: "💻",
   },
   {
     quote:
-      "Ori's deep learning implementations show both theoretical understanding and practical engineering skill. A dedicated researcher with a builder's mindset.",
-    name: 'Research Mentor',
-    role: 'Deep Learning Lab',
-    avatar: '🧑‍🔬',
+      "Ori is a highly intelligent developer who distinguished himself in the top 2% of students I have taught. His work in Computer Vision and Neural Networks demonstrated a remarkable ability to research and deploy complex analysis into high-quality code. He consistently goes well beyond requirements, bringing both strong analytical skills and a great, dedicated mindset.",
+    name: "Yoni Chechik",
+    role: "AI & Computer Vision Consultant & Lecturer",
+    avatar: "💻",
   },
 ]
 
@@ -32,9 +32,6 @@ export default function Testimonials() {
           Testimonials
         </p>
         <h2 className="section-heading">What people say</h2>
-        <p className="section-subheading">
-          Placeholder testimonials — real endorsements coming soon.
-        </p>
 
         <div className="grid md:grid-cols-3 gap-6">
           {testimonials.map((t, i) => (
